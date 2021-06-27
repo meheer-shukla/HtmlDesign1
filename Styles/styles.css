@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+html,body{
+    font-size: 1rem;
+    background: #242424;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+.nav-content a{
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+}
+.nav-content a:hover{
+    color: yellow !important;
+}
+
+.navbar{
+    background: black !important;
+}
+
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: white;
+}
+span{
+    color: yellow;
+    font-family: 'Satisfy', cursive;
+}
+.navbar-brand{
+    color:  yellow !important;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem !important;
+}
+
+.car-bord{
+    border: solid 3px yellow;
+}
+
+.brand-logo img{
+    height: auto;
+    width: 75%;
+}
+.headings{
+    color: yellow;
+}
+hr{
+    color: yellow;
+    text-align: center;
+}
+.main{
+    width: 40%;
+}
+.card{
+    overflow: hidden;
+    width: 20rem;
+}
+.cardbtn{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardbtn:hover{
+    background-color: black;
+    color: yellow;
+}
+label{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .slider-car{
+        display: none !important;
+    }
+    .logo-car-rr{
+        margin: 30px , 0px;
+    }
+    .maintext{
+        display: none;
+    }
+    .page-header h1{
+        text-align: center;
+        justify-content: center;
+        padding-top: 9.5rem;
+        color: yellow;
+        font-family: 'Satisfy', cursive;
+        text-align: center;
+    }
+    .logos{
+        margin-top: 80vh;
+    }
+  }
